@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.color-button {
+    width: 60px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#reset-button {
+    margin-top: 10px;
+}
